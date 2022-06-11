@@ -8,7 +8,7 @@ installed nginx with `sudo apt install nginx`
 
 checked the status of the nginx and it is active (running)
 
-![installed-nginx-active-running.PNG](./image/installed-nginx-active-running.PNG)
+![installed-nginx-active-running.PNG](./images/installed-nginx-active-running.PNG)
 
 
 created project2 repository in gitHub with project.md file and images folder
@@ -21,7 +21,7 @@ Then, confirmed same from the terminal with:
 
 also checked same from the browser in html and welcome to Nginx page
 
-![welcome-to-nginx.PNG](./image/welcome-to-nginx.PNG)
+![welcome-to-nginx.PNG](./images/welcome-to-nginx.PNG)
 
 IP: curl -s http://169.254.169.254/latest/meta-data/public-ipv4
 
@@ -41,21 +41,21 @@ logged into MySql and I ran the security script
 
 completed set up password for MySql and logged in succesfully
 
-![MySql-login-password.PNG](./image/MySql-login-password.PNG)
+![MySql-login-password.PNG](./images/MySql-login-password.PNG)
 
 
 installed PHP and php-mysql to communicate with the MySql database:
 `sudo apt install php-fpm php-mysql`
 
 
-![Nginx-successful.PNG](./image/Nginx-successful.PNG)
+![Nginx-successful.PNG](./images/Nginx-successful.PNG)
 
 
 Reload nginx
 `sudo systemctl reload nginx`
 
 
-![Hello-LEMP.PNG](./image/Hello-LEMP.PNG)
+![Hello-LEMP.PNG](./images/Hello-LEMP.PNG)
 
 
 LEMP is fully installed and operational now. Next up is to test PHP with nginx
@@ -69,7 +69,7 @@ phpinfo();
 ```
 
 
-![info-php.PNG](./image/info-php.PNG)
+![info-php.PNG](./images/info-php.PNG)
 
 Then, for security reasons because of the information in the php info page on server, I removed with `sudo rm /var/www/projectLEMP/info.php`
 
@@ -93,7 +93,7 @@ inserted PHP script in to query the content of todo_list table
 
 And confirmed this changes by adding */todo_list.php* to the (URL) public IP address on the webpage
 
-![todo_list.PNG](./image/todo_list.PNG)
+![todo_list.PNG](./images/todo_list.PNG)
 
 
 
