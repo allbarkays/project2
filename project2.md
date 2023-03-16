@@ -55,6 +55,7 @@ Reload nginx
 `sudo systemctl reload nginx`
 
 
+
 ![Hello-LEMP.PNG](./images/Hello-LEMP.PNG)
 
 
